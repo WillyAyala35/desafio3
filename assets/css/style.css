@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap')
+
+. {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+/* Alineando contenido con flex */
+
+body {
+   
+background-color: rgb(147, 143, 143);
+margin-top: 80px;
+box-sizing: border-box;
+
+}
+
+.container-1 {
+
+margin-left: 200px;
+padding: 5px;
+box-sizing: border-box;
+border-style: none;
+
+}
+
+.titulo {
+
+color: white;
+font-size: 30px;
+text-align: center;
+font-family: "Raleway", sans-serif;
+margin: 10px;
+
+}
+
+.container-2 {
+
+background-image: url(/assets/imagenes/1.jpg);
+background-size: contain;
+width: 600px;
+height: 500px;
+margin-left: 200px;
+box-sizing: border-box;
+border-style: none;
+
+}
+
+.container-3 {
+
+margin-left: 200px;
+display: flex;
+flex-direction: row;
+box-sizing: border-box;
+
+}
+
+.info {
+
+color: white;
+font-family: "Raleway", sans-serif;
+font-size: 8px;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 20px;
+text-align: justify;
+}
+
+.card-1 {
+
+margin-top: 10px;
+margin-right: 70px;
+
+}
+
+.container-4 {
+
+margin-left: 200px;
+display: block;
+box-sizing: border-box
+
+}
+
+.Caracteristicas {
+
+color: greenyellow;
+font-family: "Raleway", sans-serif;
+font-size: 15px;
+display: inline-flex;
+margin-left: 220px;
+
+}
+
+
+.iconos {
+
+color: red;
+margin-left: 150px;
+justify-content: space-evenly;
+
+}
+
+
+.legenda {
+
+color: greenyellow;
+font-family: "Raleway", sans-serif;
+font-size: 10px;
+display: inline-flex;
+margin-left: 130px;
+gap: 80px;
+
+}
+
+
+.container-5 {
+
+box-sizing: border-box;
+margin-left: 200px;
+display: flex;
+gap: 10px;
+justify-content: space-evenly;
+padding: 25px;
+
+}
+
+
+.container-6 {
+
+
+margin-left: 200px;
+box-sizing: border-box;
+display: block;
+padding-left: 150px;
+padding-top: 10px;
+
+}
+
+
+.enlace {
+
+color: white;
+font-family: "Raleway", sans-serif;
+justify-content: space-evenly;
+font-size: 12px;
+
+}
